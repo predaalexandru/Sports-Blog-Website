@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import '../assets/scss/base.scss'
+import '../../assets/scss/base.scss'
 import {Link} from 'react-router-dom'
 import {Avatar} from 'antd'
 import { UserOutlined } from '@ant-design/icons';

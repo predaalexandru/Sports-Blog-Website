@@ -1,5 +1,5 @@
 import React from 'react'
-import postMasonry from '../components/post-masonry'
+import {PostMasonry} from '../components/common/index'
 import trending from '../assets/mocks/trending'
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
         <section className="container home">
             <div className="row">
                 <h2>Trending Posts</h2>
-                <postMasonry posts={trending} columns={3} />
+                <PostMasonry posts={trending} columns={3} />
             </div>
         </section>
     )
